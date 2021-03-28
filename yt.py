@@ -2,7 +2,7 @@ import sys
 from googleapiclient.discovery import build
 from datamodel import *
 
-yt_key = "AIzaSyCPiEUCoO8Hn6TPkqsHgFmAIKDmqU4lEkQ"
+yt_key = "<youtube Key>"
 
 youtube = build('youtube', 'v3', developerKey = yt_key)
 
